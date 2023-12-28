@@ -1,0 +1,182 @@
+
+body {
+  background-color: #FAF0E6;
+  font-family: "Verdana", Arial;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.banner h1 {
+  font-family: "Rubik", Arial;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 100px;
+  color: #9C6137;
+  top: 25%;
+}
+
+.banner .word {
+  color: grey;
+  font-style: italic;
+  width: 100%;
+  position: absolute;
+	text-align: center;
+	font-size: 25px;
+  bottom: 20%;
+}
+
+.why {
+  width: 100%;
+  height: 430px;
+  background-color: #F3E8D8;
+}
+
+.picWhy {
+  float: left;
+  width: 50%;
+  height: 430px;
+ }
+
+.text {
+  padding: 30px;
+  margin-left: 50%;
+}
+
+.text h2 {
+  font-size: 2.2em;
+}
+
+#salon {
+  font-size: 120%;
+}
+
+#mani {
+  font-size: 90%;
+  color: grey;
+}
+
+#serv {
+  padding-top: 35px;
+}
+
+.b-service {
+  background-color: #E8D2B8;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.b-service:hover {
+  background-color: #E0C29F;
+}
+
+.vid {
+  text-align: center;
+  background-color: #FAF0E6;
+  height: 80%;
+}
+
+.vid h3 {
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.vid iframe {
+  border: 2px solid #E0C29F;
+  padding: 15px;
+}
+
+.review {
+  background-color: #EEDECB;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.review h3 {
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.t-profile {
+  display: inline-block;
+  background-color: #E8D2B8;
+  padding: 45px 30px 0 30px;
+  height: 350px;
+}
+
+.t-profile img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.t-profile p {
+  width: 300px;
+  font-size: 80%;
+}
+
+.t-profile h4 {
+  padding: 20px;
+  font-style: italic;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+#touch {
+  font-size: 50px;
+}
+
+#qn {
+  font-size: 90%;
+  color: grey;
+}
+
+.input {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.t-area {
+  width: 400px;
+  height: 120px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+#contact-submit {
+  width: 35%;
+  margin-top: 18px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 70%;
+  color: black;
+  background-color: #E8D2B8;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+#contact-submit:hover {
+  background-color: #E0C29F;
+}

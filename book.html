@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<head>
+<meta charset="utf-8" />
+<title>The Nail Studio - Booking</title>
+<link rel="stylesheet" type="text/css" href="book.css" />
+<link rel="stylesheet" type="text/css" href="all.css" />
+<script src="https://kit.fontawesome.com/ad4fbfc575.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="logo">
+  <img src="images/logo.png" alt="logo" height="40" width="180">
+</div>
+<nav>
+  <ul>
+    <li><a href="#" class="current">Booking</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="nail.html">Home</a></li>
+  </ul>
+</nav>
+
+<h1>BOOKING FORM</h1>
+
+<fieldset style="width:600px" class="book_form">
+<div id="book">
+  <h2>Gift yourself a pampering session</h2>
+  <p>Book an appointment today!</p>
+</div>
+<div class="booking">
+  <form method="get" action="BookingFormProcessor.html" target="_blank">
+    <input type="text" class="input" placeholder="Name*" name="Name " required>
+    <input type="email" class="input" placeholder="Email Address*" name="Email " required>
+<br>
+    <input type="tel" class="input" placeholder="Contact Number*" pattern="\d{8}" name="Contact No. " required>
+    <input type="date" class="input" name="Booking Date " required>
+<br>
+<br>
+    <div class="cbox-serv">
+      <label> Basics :
+        <input type="checkbox" value="Manicure" name="Service ">Manicure
+      </label>
+      <label>
+        <input type="checkbox"  value="Pedicure" name="Service ">Pedicure
+      </label>
+      <label>
+        <input type="checkbox"  value="Nail Art" name="Service ">Nail Art
+      </label>
+      <br>
+      <label> Packages :
+        <input type="checkbox"  value="Classic Manicure Package" name="Package ">Classic Mani
+      </label>
+      <label>
+        <input type="checkbox"  value="Classic Pedicure Package" name="Package ">Classic Pedi
+      </label>
+      <label>
+        <input type="checkbox"  value="The Classics Combo" name="Package ">The Classics Combo
+      </label>
+    </div>
+<br>
+    <textarea type="text" class="t-area" placeholder="Message" name="Message "></textarea>
+<br>
+    <button type="submit" id="contact-submit" data-submit="...Sending">SUBMIT</button>
+
+  </form>
+</div>
+</fieldset>
+<br>
+
+<table border="1">
+<caption>Opening Hours</caption>
+<thead>
+  <th>Day</th>
+  <th>Hours</th>
+</thead>
+<tr>
+  <td>Monday</td>
+  <td rowspan="5">9:00AM - 6:00PM</td>
+</tr>
+<tr>
+  <td>Tuesday</td>
+</tr>
+<tr>
+  <td>Wednesday</td>
+</tr>
+<tr>
+  <td>Thursday</td>
+</tr>
+<tr>
+  <td>Friday</td>
+</tr>
+<tr>
+  <td>Saturday</td>
+  <td>9:00AM - 4:00PM</td>
+</tr>
+<tr>
+  <td>Sunday</td>
+  <td rowspan="2">CLOSED</td>
+</tr>
+<tr>
+  <td>Public Holidays</td>
+</tr>
+</table>
+<br>
+
+<div class="icons">
+  <div class="i-info">
+    <a href="https://www.w3schools.com/"><i class="fa-solid fa-location-dot"></i></a>
+    <h3>Address</h3>
+    <p>12 Sunrise Avenue 2, Bugis Street, Singapore 54321<p>
+  </div>
+  <div class="i-info">
+    <a href="https://www.w3schools.com/"><i class="fa-solid fa-envelope"></i></a>
+    <h3>Email</h3>
+    <p>hello@thenailstudio.com</p>
+  </div>
+  <div class="i-info">
+    <a href="https://www.w3schools.com/"><i class="fa-solid fa-phone"></i></a>
+    <h3>Phone</h3>
+    <p>(+65) 9876 5432</p>
+  </div>
+</div>
+
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.161333149892!2d103.8549626!3d1.3006613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2401a1425e650342!2sBugis%20Street!5e0!3m2!1sen!2ssg!4v1656509492022!5m2!1sen!2ssg" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<footer>
+  <ul class="social_icon">
+    <li><a href="https://www.w3schools.com/"><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="https://www.w3schools.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+    <li><a href="https://www.w3schools.com/"><i class="fa-brands fa-twitter"></i></a></li>
+  </ul>
+  <ul class="menu">
+    <li><a href="nail.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="#" class="current">Booking</a></li>
+  </ul>
+  <p>&copy; 2022 The Nail Studio | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

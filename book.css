@@ -1,0 +1,117 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: #EDDCC8;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #9C6137;
+}
+
+.book_form {
+  margin: auto;
+  text-align: center;
+  border: none;
+}
+
+#book {
+  text-align: center;
+  font-family: "Verdana", Arial;
+  color: grey;
+  font-size: 90%;
+}
+
+.input {
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  outline: none;
+}
+
+.cbox-serv {
+  border: 1px solid #777;
+  width: 545px;
+  height: 40px;
+  margin: auto;
+  background-color: white;
+  color: grey;
+  font-size: 90%;
+}
+
+.t-area {
+  width: 525px;
+  height: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  outline: none;
+}
+
+#contact-submit {
+  width: 50%;
+  margin-top: 18px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 70%;
+  background-color: #E0C29F;
+  border: none;
+  cursor: pointer;
+}
+
+#contact-submit:hover {
+  background-color: #D5AD7E;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th {
+  background-color: #E0C29F;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+.icons {
+  text-align: center;
+  background-color: #E8D2B8;
+}
+
+.i-info {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+.i-info a  {
+  color: #9C6137;
+}
+
+.i-info a:hover  {
+  color: brown;
+}
+
+.i-info p {
+  width: 300px;
+  font-size: 80%;
+}
+
+.map iframe {
+  width: 100%;
+}
